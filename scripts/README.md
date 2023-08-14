@@ -1,4 +1,4 @@
-# How to use scripts?
+# Guide for scripts
 
 ## Requirements
 - pdfminer
@@ -18,13 +18,13 @@
 
 |Modules|Descriptions|Cautions|
 |-------|------------|--------|
-|text_processor.py|PDF to Text를 비롯한 Text관련 처리를 담당하는 module||
+|text_processor.py|PDF to Text를 비롯한 Text관련 처리를 담당||
 |postgreSQL.py|PostgreSQL DB와 연동하기 위한 class 구현||
-|back_translator.py|Document Data augmentation을 위한 back translator module||
-|backtranslation_papago.py|back_translator의 papago API 활용 modules||
-|data_control.py|Data load 및 split, Dataloader 등 데이터를 관련 module||
-|etc_modules.py|metric이나 결과물의 save와 관련된 처리들을 하는 module||
-|DAPT.py|범용 corpus로 학습된 pretrained 모델을 금융 데이터로 fine-tuning 및 huggingface에 업로드하는 module|DAPT_config.json에서 koBERT나 roBERTa 중 선택하여 입력|
+|back_translator.py|Document Data augmentation을 위한 back translator||
+|backtranslation_papago.py|back_translator의 papago API 활용||
+|data_control.py|Data load 및 split, Dataloader 등 데이터 관련 module||
+|etc_modules.py|metric이나 결과물의 save와 관련된 처리||
+|DAPT.py|범용 corpus로 학습된 pretrained 모델을 금융 데이터로 fine-tuning 및 huggingface에 업로드|DAPT_config.json에서 koBERT나 roBERTa 중 선택하여 입력|
 |k_fold_train.py|model train을 위한 package|train_config.json에 parameter 정의|
 |inference.py|train된 model을 활용해 inference하기 위한 package|inference_config.json에 parameter 정의|
 
