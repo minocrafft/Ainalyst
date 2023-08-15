@@ -6,7 +6,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-<h3 align="center">Ainalyst</h3>
+  <img src="assets/logo.png" alt="Logo" width="200" height="80">
 
   <p align="center">
     Context analysis system for stock firm reports
@@ -46,16 +46,10 @@
 
 Here is the [video](https://www.youtube.com/watch?v=EeRVhKxHqs8&ab_channel=%EB%A8%B8%EB%8B%88%EA%B7%B8%EB%9D%BC%ED%94%BCMoneygraphy) that inspired this project.
 
-<div>
-    <span>
-        <img src="assets/title.png" alt="title">
-    </span>
-    <span>
-        <img src="assets/home.png" alt="home">
-    </span>
-</div>
+![home]
 
-애널리스트가 작성한 증권사 리포트의 맥락을 분석해서 새로운 투자의견을 도출하는 인공지능 시스템을 구현합니다.  
+애널리스트가 작성한 증권사 리포트의 맥락을 분석해서 새로운 투자의견을 도출하는 인공지능 시스템을 구현합니다.
+
 Main contents는 다음과 같습니다.
 
 * 경제, 금융 관련 리포트의 맥락 및 의도를 분석하는 Bert 기반의 Deep Learning Model 개발
@@ -112,7 +106,7 @@ Main contents는 다음과 같습니다.
     - kor :arrow_right: eng :arrow_right: kor, kor :arrow_right: zhcn :arrow_right: kor
     ![backtranslations]
 
-결과적으로 기존 2,700개의 데이터셋을 약 4배 정도 증강했습니다.
+결과적으로 기존 2,700개의 데이터셋을 **약 4배 정도 증강**했습니다.
 
 ### Models
 
@@ -138,7 +132,7 @@ Official updates are no longer supported.
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
