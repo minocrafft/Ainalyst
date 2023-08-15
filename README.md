@@ -123,9 +123,9 @@ Display를 위한 Web 및 리포트 데이터 저장을 위해 Django와 Postgre
 <!-- Contributors -->
 ## Contributors
 
-Nahyeon Kang - [@NahyeonKang](https://github.com/NahyeonKang)
-Minho Kim - [@minocrafft](https://github.com/minocrafft)
-Seunghwan Oh - [@oswswo123](https://github.com/oswswo123)
+* Nahyeon Kang - [@NahyeonKang](https://github.com/NahyeonKang)
+* Minho Kim - [@minocrafft](https://github.com/minocrafft)
+* Seunghwan Oh - [@oswswo123](https://github.com/oswswo123)
 
 
 
