@@ -48,10 +48,10 @@ Here is the [video](https://www.youtube.com/watch?v=EeRVhKxHqs8&ab_channel=%EB%A
 
 <div>
     <div align="left">
-        <img src="https://github.com/minocrafft/Ainalyst/assets/title.png" alt="title">
+        <img src="https://github.com/minocrafft/Ainalyst/tree/main/assets/title.png" alt="title">
     </div>
     <div align="right">
-        <img src="https://github.com/minocrafft/Ainalyst/assets/home.png" alt="title">
+        <img src="https://github.com/minocrafft/Ainalyst/tree/main/assets/home.png" alt="title">
     </div>
 </div>
 
