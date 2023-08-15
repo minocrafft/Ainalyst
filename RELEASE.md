@@ -1,4 +1,5 @@
-# Hustar 4조 팀프로젝트 진행 참고사항
+# Ainalyst 진행 참고사항
+
 ### 8.24(수)
 - Ainalyst Django file Final Upload
 - Update postgreSQL.py (main문 삭제)
