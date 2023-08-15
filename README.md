@@ -47,12 +47,12 @@
 Here is the [video](https://www.youtube.com/watch?v=EeRVhKxHqs8&ab_channel=%EB%A8%B8%EB%8B%88%EA%B7%B8%EB%9D%BC%ED%94%BCMoneygraphy) that inspired this project.
 
 <div>
-    <div align="left">
-        <img src="https://github.com/minocrafft/Ainalyst/tree/main/assets/title.png" alt="title">
-    </div>
-    <div align="right">
-        <img src="https://github.com/minocrafft/Ainalyst/tree/main/assets/home.png" alt="title">
-    </div>
+    <span>
+        <img src="assets/title.png" alt="title">
+    </span>
+    <span>
+        <img src="assets/home.png" alt="home">
+    </span>
 </div>
 
 애널리스트가 작성한 증권사 리포트의 맥락을 분석해서 새로운 투자의견을 도출하는 인공지능 시스템을 구현합니다.  
