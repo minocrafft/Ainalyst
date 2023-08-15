@@ -36,7 +36,7 @@
         <li><a href="#distributions-of-data">Distributions of data</a></li>
         <li><a href="#data-augmentations">Data augmentations</a></li>
         <li><a href="#models">Models</a></li>
-        <li><a href="#web-server&databases">Web server & Databases</a></li>
+        <li><a href="#web-server--databases">Web server & Databases</a></li>
       </ul>
     </li>
     <li><a href="#contributors">Contributors</a></li>
