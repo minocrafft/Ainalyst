@@ -1,7 +1,9 @@
 <!-- Improved compatibility of back to top link -->
+
 <a name="top"></a>
 
 <!-- PROJECT SHIELDS -->
+
 [![MIT License][license-shield]][license]
 
 <!-- PROJECT LOGO -->
@@ -21,8 +23,6 @@
     <a href="https://github.com/minocrafft/Ainalyst/pulls">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -46,9 +46,8 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 Here is the [video](https://www.youtube.com/watch?v=EeRVhKxHqs8&ab_channel=%EB%A8%B8%EB%8B%88%EA%B7%B8%EB%9D%BC%ED%94%BCMoneygraphy) that inspired this project.
@@ -59,27 +58,26 @@ Here is the [video](https://www.youtube.com/watch?v=EeRVhKxHqs8&ab_channel=%EB%A
 
 Main contents는 다음과 같습니다.
 
-* 경제, 금융 관련 리포트의 맥락 및 의도를 분석하는 Bert 기반의 Deep Learning Model 개발
-* 맥락 분석 모델의 성능 향상을 위한 다양한 기법 적용
-* 리포트 데이터 저장을 위한 데이터베이스 구축
-* 시각화 및 전체 파이프라인 자동화
+- 경제, 금융 관련 리포트의 맥락 및 의도를 분석하는 Bert 기반의 Deep Learning Model 개발
+- 맥락 분석 모델의 성능 향상을 위한 다양한 기법 적용
+- 리포트 데이터 저장을 위한 데이터베이스 구축
+- 시각화 및 전체 파이프라인 자동화
 
 ### Environments
 
-|Types|Contents|
-|---|---|
-|OS|Ubuntu|
-|Languages|Python|
-|Databases|PostgreSQL|
-|Frameworks|Numpy, Pandas, Scikit-learn, datasets <br>Pytorch, huggingface, transformers <br>Django|
+| Types      | Contents                                                                                |
+| ---------- | --------------------------------------------------------------------------------------- |
+| OS         | Ubuntu                                                                                  |
+| Languages  | Python                                                                                  |
+| Databases  | PostgreSQL                                                                              |
+| Frameworks | Numpy, Pandas, Scikit-learn, datasets <br>Pytorch, huggingface, transformers <br>Django |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ## Details
 
 ### Flowchart
+
 ![flowchart]
 
 전체 흐름은 다음과 같습니다.
@@ -93,25 +91,24 @@ Main contents는 다음과 같습니다.
 
 학습에 사용된 데이터의 분포는 다음과 같습니다.
 
-|Opinions|Number|
-|---|---|
-|강력 매수|약 1600개|
-|매도|약 280개|
-|중립 & 목표주가 하향|약 830개|
-|계|약 2700개|
-
+| Opinions             | Number    |
+| -------------------- | --------- |
+| 강력 매수            | 약 1600개 |
+| 매도                 | 약 280개  |
+| 중립 & 목표주가 하향 | 약 830개  |
+| 계                   | 약 2700개 |
 
 ### Data augmentations
 
 부족한 리포트 데이터의 증강을 위해 다음과 같은 방법을 적용했습니다.
 
 1. Apply different way for preprocessing
-    - 전처리를 최소화한 Raw data와 추가 전처리가 들어간 data를 별도의 데이터로 활용
-    - Domain adaptation 진행 후 학습
+   - 전처리를 최소화한 Raw data와 추가 전처리가 들어간 data를 별도의 데이터로 활용
+   - Domain adaptation 진행 후 학습
 2. Apply back translations
-    - kakaobrain, pororo api, google translation 등을 활용해 다른 언어로 번역 후 한글로 재 번역 합니다.
-    - kor :arrow_right: eng :arrow_right: kor, kor :arrow_right: zhcn :arrow_right: kor
-    ![backtranslations]
+   - kakaobrain, pororo api, google translation 등을 활용해 다른 언어로 번역 후 한글로 재 번역 합니다.
+   - kor :arrow_right: eng :arrow_right: kor, kor :arrow_right: zhcn :arrow_right: kor
+     ![backtranslations]
 
 결과적으로 기존 2,700개의 데이터셋을 **약 4배 정도 증강**했습니다.
 
@@ -125,20 +122,18 @@ KB에서 제공받은 KB-ALBERT, KoBERT, RoBERTa 등을 학습하며 최종적�
 
 Display를 위한 Web 및 리포트 데이터 저장을 위해 Django와 PostgreSQL을 사용합니다.
 
-
-
 <!-- Contributors -->
+
 ## Contributors
 
-* Nahyeon Kang - [@NahyeonKang](https://github.com/NahyeonKang)
-* Minho Kim - [@minocrafft](https://github.com/minocrafft)
-* Seunghwan Oh - [@oswswo123](https://github.com/oswswo123)
-* Byungnam Yoon - [@Yoonbyungnam](https://github.com/Yoonbyungnam)
-* Byeonghwa Lee - [@by-hwa](https://github.com/by-hwa)
-
-
+- Nahyeon Kang - [@NahyeonKang](https://github.com/NahyeonKang)
+- Minho Kim - [@minocrafft](https://github.com/minocrafft)
+- Seunghwan Oh - [@oswswo123](https://github.com/oswswo123)
+- Byungnam Yoon - [@Yoonbyungnam](https://github.com/Yoonbyungnam)
+- Byeonghwa Lee - [@by-hwa](https://github.com/by-hwa)
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 Sadly, this project will not be updated...  
@@ -146,31 +141,27 @@ Official updates are no longer supported.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## References
 
-* for web: [Argon Dashboard Django][Argon]
+- for web: [Argon Dashboard Django][Argon]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [license-shield]: https://img.shields.io/github/license/minocrafft/Ainalyst.svg?style=for-the-badge
 [license]: LICENSE
-[title]: assets/title.png
 [home]: assets/home.png
 [flowchart]: assets/flowchart.png
 [blockdiagram]: assets/blockdiagram.png
