@@ -122,6 +122,15 @@ KB에서 제공받은 KB-ALBERT, KoBERT, RoBERTa 등을 학습하며 최종적�
 
 Display를 위한 Web 및 리포트 데이터 저장을 위해 Django와 PostgreSQL을 사용합니다.
 
+<!-- USAGE EXAMPLES -->
+
+## Usage
+
+Sadly, this project will not be updated...  
+Official updates are no longer supported.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- Contributors -->
 
 ## Contributors
@@ -131,15 +140,6 @@ Display를 위한 Web 및 리포트 데이터 저장을 위해 Django와 Postgre
 - Seunghwan Oh - [@oswswo123](https://github.com/oswswo123)
 - Byungnam Yoon - [@Yoonbyungnam](https://github.com/Yoonbyungnam)
 - Byeonghwa Lee - [@by-hwa](https://github.com/by-hwa)
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Sadly, this project will not be updated...  
-Official updates are no longer supported.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
